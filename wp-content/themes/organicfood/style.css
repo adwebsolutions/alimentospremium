@@ -172,19 +172,19 @@ code, kbd, tt, var, samp, pre {
 cite, dfn, em, i { font-style:italic; }
 #searchform #searchsubmit { display:none; }
 .time-new-roman { font-family:"times new roman"; }
-h3.headline, h3.wg-title, h3.feature-delivery-title, h4.ns2-title, .wpb_accordion_header a, h2.blog-title, h2.page-title, .box-white.style2 h4, h3.block-title, h3.box-title, .team-name h3, .pie-graph h3, .services-box h3 { font-family:lato-light; }
-h1, h2, h3, h4, h5, h6 { font-family:lato-light; }
+h3.headline, h3.wg-title, h3.feature-delivery-title, h4.ns2-title, .wpb_accordion_header a, h2.blog-title, h2.page-title, .box-white.style2 h4, h3.block-title, h3.box-title, .team-name h3, .pie-graph h3, .services-box h3 { font-family:Amatic SC; }
+h1, h2, h3, h4, h5, h6 { font-family:Amatic SC; }
 h3.uk-panel-title {
-  font-family:open sans;
+  font-family:Amatic SC;
   color:#666;
   font-weight:600;
 }
-.headline {font-family: AmaticSC;}
+.headline {font-family: Amatic SC;}
 .lato-light { font-family:lato-light; }
 .uppercase { text-transform:uppercase; }
 body ul ul { margin-top:0; }
 body h3 { font-size:24px; }
-body { line-height:28px; }
+body { line-height:20px; }
 .container .container { width:100%; }
 .ww-container {
   max-width:1170px;
@@ -571,8 +571,8 @@ body.csbody .header-site-wrap a:hover { color:#3f7228; }
   font-weight:300;
 }
 h3.headline {
-  font-size:24px;
-  font-weight:300;
+  font-size:40px;
+  font-weight:bold;
   line-height:normal;
   margin:10px 0;
   padding:20px 0;
@@ -1797,3 +1797,114 @@ body .glyphicon-chevron-right:before {
 .fa-plus-circle {
 	color: #ffb400;
 }
+
+.separator {
+	background-color: #ffb400;
+	width: 100%;
+	height: 1px;
+}
+
+.footprints {
+	background-image: url("/wp-content/themes/organicfood/images/bg/footprints.png");
+}
+
+.certified {
+	background-image: url("/wp-content/themes/organicfood/images/bg/quality.jpg");
+	background-position: 0 center;
+	background-size: 100% 150%;
+}
+
+body.csbody .box-feature-figure .figcaption {
+    background-color: #ffb400;
+}
+
+#wpsm_accordion_343 .wpsm_panel-body {
+	border-style: dashed !important;
+	margin-top: 5px;
+	border-radius: 5px;
+	border-color: #ccc !important;
+}
+
+#wpsm_accordion_343 .ac_title_class {
+    color: #fff !important;
+}
+
+.vc_label_units {
+	float: right !important;
+	border-radius: 10px !important;
+	margin-right: 20px !important;
+}
+
+.home-collapse-body {
+	border-style: dashed;
+border-color: #999;
+padding-top: 15px;
+padding-bottom: 15px;
+border-radius: 5px;
+border-width: 2px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+body.csbody .slider-blog .ns2-date-blog {
+    background-color: #ffb400;
+}
+
+body.csbody a.wpb_button.wpb_btn-primary {
+	border-radius: 5px;
+}
+
+.ww-nav .fa {
+	background-color: #ffb400;
+}
+
+.uk-panel {
+	border-color: rgb(199,199,199);
+	border-width: 2px;
+	border-radius: 10px;
+}
+
+.left-panel>h3 {
+	float: right;
+}
+
+.right-panel>h3>i {
+	float: left;
+	margin-right: 5px;
+}
+
+.cs-social li {
+    float: right;
+}
+
+.tparrows {
+	background-color: rgba(91, 191, 33, 0.9);
+	border-radius: 5px;
+	margin: 5px 5px;
+}
+
+.tp-leftarrow {
+	transform: matrix(1, 0, 0, 1, -120, -70);
+}
+
+.tparrows:hover {
+	background-color: rgba(91, 191, 33, 1);
+}
+
+#footer-top ul.cs-social li a i {
+    color: #FFF;
+}
+
+.header-site-wrap .page-title {
+	font-family: Amatic SC;
+}
+
+#wpsm_accordion_343 .wpsm_panel-title a {
+	font-family: Amatic SC;
+}
+
+.ns2-title {
+	font-family: Amatic SC;
+	font-weight: bold;
+}
+
