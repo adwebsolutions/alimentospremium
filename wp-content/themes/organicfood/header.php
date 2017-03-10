@@ -7,6 +7,7 @@
             global $smof_data, $post;
         ?>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="http://fonts.googleapis.com/css?family=Amatic+SC%3A700" rel="stylesheet" property="stylesheet" type="text/css" media="all">
          
     <?php require_once ( get_template_directory() . '/framework/includes/header-extend.php' ); ?>
     <?php wp_head(); ?>

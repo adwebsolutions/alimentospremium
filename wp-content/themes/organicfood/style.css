@@ -172,14 +172,17 @@ code, kbd, tt, var, samp, pre {
 cite, dfn, em, i { font-style:italic; }
 #searchform #searchsubmit { display:none; }
 .time-new-roman { font-family:"times new roman"; }
-h3.headline, h3.wg-title, h3.feature-delivery-title, h4.ns2-title, .wpb_accordion_header a, h2.blog-title, h2.page-title, .box-white.style2 h4, h3.block-title, h3.box-title, .team-name h3, .pie-graph h3, .services-box h3 { font-family:Amatic SC; }
+h3.headline, h3.feature-delivery-title, h3.wg-title, h4.ns2-title, .wpb_accordion_header a, h2.blog-title, h2.page-title, .box-white.style2 h4, h3.block-title, h3.box-title, .team-name h3, .pie-graph h3, .services-box h3 { font-family:Amatic SC;color:#000 !important; }
+h2.wg-title {
+	font-weight: bold;
+	font-size: 17pt;
+	font-family: OpenSans;
+}
 h1, h2, h3, h4, h5, h6 { font-family:Amatic SC; }
 h3.uk-panel-title {
-  font-family:Amatic SC;
   color:#666;
-  font-weight:600;
 }
-.headline {font-family: Amatic SC;}
+.headline {font-family: Amatic SC;color:#000 !important;}
 .lato-light { font-family:lato-light; }
 .uppercase { text-transform:uppercase; }
 body ul ul { margin-top:0; }
@@ -1877,14 +1880,14 @@ body.csbody a.wpb_button.wpb_btn-primary {
 
 .left-panel>h3 {
 	float: right;
-	font-style: italic;
-	font-size: 25px;
+	font-size: 15pt;
+	font-family: MV Boli;
 }
 
 
 .right-panel>h3 {
-	font-style: italic;
-	font-size: 25px;
+	font-size: 15pt;
+	font-family: MV Boli;
 }
 
 .right-panel>h3>i {
@@ -1920,14 +1923,49 @@ body.csbody a.wpb_button.wpb_btn-primary {
 
 .header-site-wrap .page-title {
 	font-family: Amatic SC;
+	color:#000 !important;
+	font-weight: bold;
 }
 
 #wpsm_accordion_343 .wpsm_panel-title a {
 	font-family: Amatic SC;
 }
 
-.ns2-title {
-	font-family: Amatic SC;
-	font-weight: bold;
+.ns2-title>a {
+	color: #000 !important;
+	font-family: MV Boli !important;
+	font-weight: 300 !important;
 }
 
+.header-v1 {
+	background-image: url("/wp-content/uploads/2017/02/barfbarf.png");
+	background-position: 100px 0px;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+
+.logo-v1 {
+	color: transparent;
+}
+#header-top {
+	background-color: transparent !important;
+}
+#cshero-header {
+	background-color: transparent !important;
+}
+.vc_btn3.vc_btn3-color-green.vc_btn3-style-modern {
+	background-color: rgb(91,191,33);
+}
+
+.ac_title_class {
+	font-family: MV Boli !important;
+	font-size: 14pt !important;
+}
+
+#breadcrumb {
+	color: #000 !important;
+}
+
+#breadcrumb>a {
+	color: #000 !important;
+}
