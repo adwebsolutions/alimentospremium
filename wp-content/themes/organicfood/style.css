@@ -980,7 +980,7 @@ body.csbody .header-site-wrap a:hover { color:#3f7228; }
 
   background-repeat:repeat;
 
-  color:#999999;
+  color:#fff !important;
 
   padding:35px 0px;
 
@@ -1026,7 +1026,7 @@ body.csbody .header-site-wrap a:hover { color:#3f7228; }
 
 #footer-bottom .textwidget p { color:#ffffff; text-align: center; }
 
-#footer-bottom a { color:#999999; }
+#footer-bottom a { color:#fff; }
 
 #footer-bottom a:hover { color:#fff; }
 
@@ -3878,8 +3878,6 @@ body.csbody a.wpb_button.wpb_btn-primary {
 
 .header-v1 {
 
-	background-image: url("/wp-content/uploads/2017/02/barfbarf.png");
-
 	background-position: 100px 0px;
 
 	background-repeat: no-repeat;
@@ -4106,4 +4104,8 @@ body.csbody a.wpb_button.wpb_btn-primary {
 
 .ac_title_class {
 	color: #ffb400;
+}
+
+.blog-image {
+	margin-top: 20px;
 }
